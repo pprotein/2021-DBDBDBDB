@@ -115,5 +115,6 @@ const pool = mysql.createPool(
 >Course_name|Course_number|Credit_Hours
 >---|---|---|
 >데이터베이스설계|1|4
+>실습|2|4
 ***
 
