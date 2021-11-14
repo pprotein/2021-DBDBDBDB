@@ -8,11 +8,11 @@ import path from "path"; //path는 경로설정할때 쓰인다
 //아래는 사용자가 만든 폴더에 있는 기능 불러오기
 // (현재 파일 위치 기준으로 경로 작성)
 //.js 쓰지 않아도 js파일임을 인식하기 때문에 안써도 됨.
-import homeRouter from "../routes/home";  
+import homeRouter from "../routes/home.js";  
 // home화면에 관련된 router
-import updateRouter from "../routes/update"; 
+import updateRouter from "../routes/update.js"; 
 // 수정하는 주소에서 동작
-import selectRouter from "../routes/select"; 
+import selectRouter from "../routes/select.js"; 
 // 조회하는 동작
 
 //port number, 수정가능하지만 변하지 않는 값이기에 const사용
