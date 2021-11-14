@@ -1,5 +1,5 @@
 import express from "express";
-import { selectSql, updateSql } from "../database/sql";
+import { selectSql, updateSql } from "../database/sql.js";
 //수정하기 위해서는 선택해서 업데이트 해야하기에 두개의 sql을 불러온다
 
 

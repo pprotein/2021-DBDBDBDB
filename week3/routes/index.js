@@ -1,5 +1,5 @@
 import express from "express";
-import sql from "../database/sql";
+import sql from "../database/sql.js";
 const router = express.Router();
 router.get('/', async function(req, res, next) {
   const users = await sql.getUsers()

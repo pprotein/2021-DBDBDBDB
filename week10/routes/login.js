@@ -1,6 +1,6 @@
 //사이트에 처음 접속하면 로그인하도록 화면설정
 import express from "express";
-import { selectSql } from "../database/sql";
+import { selectSql } from "../database/sql.js";
 //데이터베이스에 데이터 삽입을 구현하는 쿼리이다.
 //views폴더의 home.hbs파일과 연동한다.
 //form을 구현한다.

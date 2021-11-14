@@ -1,6 +1,6 @@
 import express from "express";
 //사용자가 만든 모듈 불러올 때 {}
-import { selectSql } from "../database/sql";
+import { selectSql } from "../database/sql.js";
 // 중괄호는 사용자가 만드는 모듈을 가져올때 쓰인다
 
 const router = express.Router();
